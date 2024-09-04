@@ -26,8 +26,8 @@ export const updateBlogInput = z.object({
 })
 
 
-export type SingupInput = z.infer<typeof signupInput>
-export type SinginInput = z.infer<typeof signinInput>
+export type SignupInput = z.infer<typeof signupInput>
+export type SigninInput = z.infer<typeof signinInput>
 export type CreateBlogInput = z.infer<typeof createBlogInput>
 export type UpdateBlogInput = z.infer<typeof updateBlogInput>
 
