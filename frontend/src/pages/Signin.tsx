@@ -14,3 +14,5 @@ export const Signin = () => {
         </div>
     </div>
 }
+
+// use draftjs to create a fancy editor:: Rich text editor
